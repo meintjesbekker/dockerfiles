@@ -1,0 +1,983 @@
+    1  sudo apt-get python3
+    2  sudo apt-get install python3
+    3  python
+    4  python3
+    5  clear
+    6  exit
+    7  sudo apt-get update && sudo apt install android-file-transfer
+    8  ls
+    9  cd Pictures/
+   10  clear
+   11  ls
+   12  cd Pictures/
+   13  clear
+   14  ls
+   15  cd ..
+   16  clear
+   17  ls
+   18  cd ..
+   19  clear
+   20  l
+   21  ls
+   22  cd Pictures
+   23  clear
+   24  ls
+   25  cd DCIM
+   26  clear
+   27  ls
+   28  cd 100ANDRO/
+   29  cls
+   30  clea
+   31  rls
+   32  clear
+   33  ls
+   34  cd ..
+   35  ls
+   36  cd Camera
+   37  clear
+   38  ls
+   39  apt-get install docker
+   40  sudo apt-get install docker
+   41  docker
+   42  snap info docker
+   43  docker
+   44  docker ps
+   45  sudo docker ps
+   46  docker
+   47  docker -version
+   48  docker version
+   49  sudo docker version
+   50  clear
+   51  ls
+   52  cd /usr/bin
+   53  clear
+   54  ls
+   55  cd python
+   56  ls python*
+   57  cd python3
+   58  cd python3.6
+   59  ls -l python*
+   60  docker pull meintjes/my-hello-world
+   61  sudo docker pull meintjes/my-hello-world
+   62  cd ~
+   63  clear
+   64  sudo docker pull meintjes/my-hello-world
+   65  sudo docker pull python
+   66  docker ps
+   67  sudo docker ps
+   68  pwd
+   69  ls
+   70  ls -ls
+   71  cd PycharmProjects/
+   72  clear
+   73  ls
+   74  cd HelloWorld/
+   75  cleaer
+   76  clear
+   77  ls
+   78  ls -ls
+   79  HelloWorld.py
+   80  python HelloWorld.py
+   81  python3 HelloWorld.py
+   82  clear
+   83  ls
+   84  docker run -it -rm --name mb-running-script -v "$PWD":/
+   85  pwd
+   86  docker run -it -rm --name mb-running-script -v "$PWD":/home/meintjes/PycharmProjects/HelloWorld/ -w /home/meintjes/PycharmProjects/HelloWorld python:3 python HelloWorld.py
+   87  docker run -it --rm --name mb-running-script -v "$PWD":/home/meintjes/PycharmProjects/HelloWorld/ -w /home/meintjes/PycharmProjects/HelloWorld python:3 python HelloWorld.py
+   88  sudo docker run -it --rm --name mb-running-script -v "$PWD":/home/meintjes/PycharmProjects/HelloWorld/ -w /home/meintjes/PycharmProjects/HelloWorld python:3 python HelloWorld.py
+   89  docker
+   90  cd /usr/source
+   91  cd /usr
+   92  cd src
+   93  clear
+   94  ls
+   95  sudo apt-get update
+   96  sudo apt-get install     apt-transport-https     ca-certificates     curl     software-properties-common
+   97  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   98  sudo apt-key fingerprint 0EBFCD88
+   99  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  100     $(lsb_release -cs) \
+  101     stable"
+  102  sudo apt-get update
+  103  sudo apt-get install docker-ce
+  104  apt-cache madison docker-ce
+  105  sudo docker run hello-world
+  106  docker run -it ubuntu bash
+  107  sudo docker run -it ubuntu bash
+  108  sudo groupadd docker
+  109  sudo usermod -aG docker $USER
+  110  type $USER
+  111  echo $USER
+  112  logout
+  113  exit
+  114  docker run hello-world
+  115  docker run -it ubuntu bash
+  116  sudo systemctl enable docker
+  117  docker images
+  118  docker pull ubuntu
+  119  docker pull python
+  120  sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+  121  sudo chmod +x /usr/local/bin/docker-compose
+  122  docker-compose --version
+  123  docker compose up
+  124  docker-compose up
+  125  docker-compose down
+  126  exot
+  127  exit
+  128  pip install selenium.webdriver
+  129  pip install selenium
+  130  apt-get install selenium
+  131  sudo apt-get install selenium
+  132  sudo apt-get update
+  133  sudo apt-get install docker-ce
+  134  docker run hello-world
+  135  docker run -it ubuntu bash
+  136  cls
+  137  clear
+  138  docker run -it ubuntu bash
+  139  clear
+  140  ls
+  141  exit() exi
+  142  exit
+  143  apt-get install eclipse
+  144  sudo apt-get install eclipse
+  145  sudo apt-get update
+  146  sudo apt-get install eclipse
+  147  sudo apt autoremove
+  148  sudo apt-get install clion
+  149  sudo apt-get update
+  150  sudo apt-get install
+  151  sudo snap pycharm-professional --classic
+  152  sudo snap install pycharm-professional --classic
+  153  sudo snap install clion
+  154  sudo snap install clion --classic
+  155  gcc
+  156  clear
+  157  snap install eclipse
+  158  snap install eclipse --classic
+  159  snap install docker
+  160  snap refresh docker
+  161  clear
+  162  docker
+  163  which docker
+  164  docker-compose
+  165  which docker-compose
+  166  docker-machine
+  167  snap install docker-machine
+  168  snap install intellij
+  169  apt-get install mc
+  170  sudo apt-get install mc
+  171  mc
+  172  sudo apt-get uninstall
+  173  sudo apt-get -help
+  174  sudo apt-get --help
+  175  sudo apt-get remove eclipse
+  176  snap eclipse
+  177  snap install eclipse
+  178  snap refresh eclipse
+  179  snap remove eclipse
+  180  sudo apt-get remove eclipse
+  181  sudo apt autoremove
+  182  snap install eclipse
+  183  snap install eclipse --classic
+  184  which docker
+  185  which docker-compose
+  186  pwd
+  187  mkdir
+  188  mkdir dockerfiles
+  189  cd dockerfiles
+  190  dir
+  191  mc
+  192  snap mc
+  193  snap install mc
+  194  nc
+  195  snap install midnight commander
+  196  snap install mc
+  197  nano hello.dockerfile
+  198  snap install intellij
+  199  sudo aptg-get install intellij
+  200  sudo apt-get install intellij
+  201  sudo apt-get install jetbrains-toolbox
+  202  sudo apt-get install jetbrains-intellij
+  203  docker pull hello-world
+  204  docker ps
+  205  docker run hello-world
+  206  docker ps
+  207  docker run hello-world /bin/bash
+  208  docker ps
+  209  docker stop 1410
+  210  docker ps
+  211  docker ps -all
+  212  docker kill a9
+  213  docker kill hello-world
+  214  docker ps
+  215  docker ps -all
+  216  docker stop a9ffa
+  217  docker ps -all
+  218  snap install IntelliJ
+  219  snap install IntelliJ IDEA
+  220  snap install IntelliJIDEA
+  221  snap install Toolbox
+  222  admin snap uninstall CLion
+  223  sudo snap uninstall CLion
+  224  sudo snap remove CLion
+  225  sudo apt-get remove CLion
+  226  apt-get update
+  227  sudo apt-get update
+  228  sudo apt-get remove CLion
+  229  sudo snap remove CLion
+  230  sudo snap remove clion
+  231  sudo apt-get remove clion
+  232  sudo apt-get update
+  233  sudo apt-get remove intellij
+  234  sudo apt-get remove pycharm
+  235  sudo snap remove pycharm
+  236  docker pull ubuntu
+  237  docker images
+  238  docker run -it ubuntu /bin/bash
+  239  docker ps
+  240  docker ps -all
+  241  docker stop ubuntu
+  242  docker stop 3c
+  243  docker ps -all
+  244  docker stop 3c45
+  245  docker exec -it a9ffa93e3ab05e2be796df81b679a30193d1b99ea782fa26a32a48f0ab72bb42 /bin/sh
+  246  pwd
+  247  docker build --rm -f hello.dockerfile -t dockerfiles:latest .
+  248  docker images dockerfiles:latest
+  249  docker images hello:latest
+  250  docker ps -a --filter "name=unbecoming_afternoon"
+  251  docker images hello:latest
+  252  docker build --rm -f hello.dockerfile -t hello .
+  253  docker run -it --name unbecoming_afternoon hello:latest
+  254  ls
+  255  docker build hello.dockerfile
+  256  ls -ls
+  257  mkdir hello
+  258  mv hello.dockerfile hello
+  259  docker run -it --name absurd_phase hello:latest
+  260  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  261  docker build --rm -f hello.dockerfile -t hello .
+  262  pwd
+  263  cd dockerfiles/
+  264  cls
+  265  dir
+  266  clear
+  267  ls
+  268  cd hello
+  269  clear
+  270  ls
+  271  gcc
+  272  gcc writetofileindockercontainer.cpp 
+  273  ls
+  274  gcc writetofileindockercontainer.cpp 
+  275  gcc -help
+  276  gcc /help
+  277  gcc writetofileindockercontainer.cpp 
+  278  ls
+  279  nano a.out
+  280  help gc
+  281  help gcc
+  282  gcc --help
+  283  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  284  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  285  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  286  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  287  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  288  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  289  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  290  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  291  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  292  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  293  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  294  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  295  docker run -it --name shaggy_wish hello:latest
+  296  docker run -it hello:latest /bin/hash
+  297  docker run -it hello:latest /bin/bash
+  298  clear
+  299  ls
+  300  cd hello
+  301  clear
+  302  ls
+  303  vm a.out
+  304  nano a.out
+  305  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  306  docker ps -a --filter "name=unruffled_mcnulty"
+  307  docker start unruffled_mcnulty
+  308  docker ps
+  309  docker images
+  310  docker images rm *
+  311  docker image remove a90
+  312  docker image remove 6c
+  313  docker image remove 6c151
+  314  docker image remove 6c15
+  315  clear
+  316  docker images
+  317  docker remove hello-world
+  318  docker images remove hello-world
+  319  docker image remove hello-world
+  320  docker image
+  321  docker images
+  322  docker remove image *
+  323  docker images
+  324  docker remove image hellow-world
+  325  docker remove image hello-world
+  326  clear
+  327  docker images
+  328  docker remove image hello-world
+  329  docker image remove hello-world
+  330  docker images
+  331  docker image remove e38
+  332  docker image remove 452
+  333  docker image remove 29e
+  334  docker image remove 29d
+  335  docker images
+  336  docker image remove d69
+  337  docker image remove 735
+  338  docker image remove ubuntu:latest
+  339  docker images
+  340  docker image remove 187
+  341  docker image remove -f 187
+  342  docker image remove -f 6c
+  343  docker image remove -f 3c
+  344  docker images
+  345  docker image remove -f 83
+  346  docker image remove -f 8a
+  347  docker image remove -f 735
+  348  docker images
+  349  docker ps
+  350  docker containers
+  351  docker container
+  352  docker start unruffled_mcnulty
+  353  docker ps
+  354  docker ps -a --filter "name=amazing_morse"
+  355  docker ps -a --filter "name=unruffled_mcnulty"
+  356  docker start unruffled_mcnulty
+  357  docker image
+  358  docker images
+  359  docker start hello /bin/bash
+  360  docker start hello /bin/bash/
+  361  docker
+  362  ps
+  363  docker ps -a --filter "name=unruffled_mcnulty"
+  364  docker ps -a --filter "name=gallant_boyd"
+  365  docker images
+  366  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  367  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  368  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  369  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  370  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  371  snap python
+  372  snap install python
+  373  apt-get install python
+  374  sudo apt-get install python
+  375  sudo apt-get install python3
+  376  sudo apt-get install python
+  377  pwd
+  378  cd dockerfile
+  379  pwd
+  380  ls
+  381  cd code/
+  382  ls
+  383  cd ..
+  384  cd dockerfiles
+  385  clear
+  386  ls
+  387  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  388  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  389  docker images hello:latest
+  390  docker rm beneficial_guitar
+  391  docker rm *
+  392  docker rm sharp_borg
+  393  docker rm zealous_noyce
+  394  docker rm shaggy_wish
+  395  docker rm unruffled_mcnulty
+  396  docker rm amazing_morse
+  397  docker rm focused_khorana
+  398  docker rm nifty_banach
+  399  docker rm hungry_edison
+  400  docker rm gallant_boyd
+  401  docker rm loving_brown
+  402  docker rm adoring_keller
+  403  docker rm relaxed_feynman
+  404  docker rm practical_bohr
+  405  docker rm dreamy_panini
+  406  docker ps -a --filter "name=absurd_phase"
+  407  docker rm absurd_phase
+  408  docker ps -a --filter "name=unbecoming_afternoon"
+  409  docker rm unbecoming_afternoon
+  410  clear
+  411  docker push hello:latest
+  412  docker images hello:latest
+  413  docker start defeated_common
+  414  docker push hello:latest
+  415  docker inspect hello:latest
+  416  docker images ubuntu:18.04
+  417  docker rmi ubuntu:18.04
+  418  docker ps -a --filter "name=defeated_common"
+  419  docker rm next_eye
+  420  docker ps -a --filter "name=exultant_carry"
+  421  docker start imperfect_glass
+  422  docker stats imperfect_glass
+  423  docker start imperfect_glass
+  424  docker exec imperfect_glass 
+  425  docker restart imperfect_glass
+  426  docker start imperfect_glass
+  427  docker images hello:latest
+  428  docker rmi hello:latest
+  429  docker rmi -f hello:latest
+  430  docker rm mindless_try
+  431  docker rm tranquil_listen
+  432  docker rm imperfect_glass
+  433  docker stop imperfect_glass
+  434  docker rm imperfect_glass
+  435  docker ps -a --filter "name=imperfect_glass"
+  436  docker rm defeated_common
+  437  docker rm ten_text
+  438  docker rm ten_reason
+  439  docker rm astonishing_pain
+  440  docker rm obedient_log
+  441  docker rm exultant_carry
+  442  docker stop imperfect_glass
+  443  docker stop -f imperfect_glass
+  444  docker restart imperfect_glass
+  445  docker start imperfect_glass
+  446  docker ps -a --filter "name=imperfect_glass"
+  447  docker attach imperfect glass
+  448  docker attach --name=imperfect glass
+  449  docker attach -name=imperfect glass
+  450  clear
+  451  docker ps -a --filter "name=imperfect_glass"
+  452  docker images hello:latest
+  453  docker ps -a --filter "name=tearful_radio"
+  454  docker start tearful_radio
+  455  docker rm tearful_radio
+  456  docker rm outgoing_pie
+  457  docker rm imperfect_glass
+  458  docker stop imperfect_glass
+  459  docker rm imperfect_glass
+  460  docker images hello:latest
+  461  docker rm marked_mood
+  462  docker rm lame_schedule
+  463  docker rm chief_shirt
+  464  docker rm imperfect_glass
+  465  docker rm -f imperfect_glass
+  466  docker stop imperfect_glass
+  467  docker images hello:latest
+  468  docker ps -a --filter "name=imperfect_glass"
+  469  docker stop imperfect_glass
+  470  docker images hello:latest
+  471  docker ps -a --filter "name=hospitable_spray"
+  472  docker rm hospitable_spray
+  473  docker inspect jagged_hell
+  474  docker start jagged_hell
+  475  docker ps -a --filter "name=jagged_hell"
+  476  docker rm jagged_hell
+  477  docker images hello:latest
+  478  docker stop colorful_physics
+  479  docker rm colorful_physics
+  480  docker rmi hello:latest
+  481  docker images hello:latest
+  482  docker ps -a --filter "name=rare_depth"
+  483  docker stop rare_depth
+  484  docker ps -a --filter "name=greedy_collection"
+  485  docker rm greedy_collection
+  486  docker rm rare_depth
+  487  docker images hello:latest
+  488  docker rmi hello:latest
+  489  docker images hello:latest
+  490  docker ps -a --filter "name=ceaseless_store"
+  491  docker ps -a --filter "name=jolly_pare"
+  492  docker ps -a --filter "name=ceaseless_store"
+  493  docker ps -a --filter "name=ratty_obligation"
+  494  docker ps -a --filter "name=jolly_pare"
+  495  docker inspect jolly_pare
+  496  docker ps -a --filter "name=jolly_pare"
+  497  docker restart jolly_pare
+  498  docker ps -a --filter "name=ratty_obligation"
+  499  docker rm ratty_obligation
+  500  docker rm ceaseless_store
+  501  docker rm jolly_pare
+  502  docker rm cranky_ritchie
+  503  docker rm dangerous_product
+  504  docker rmi hello:latest
+  505  docker push hello:latest
+  506  docker images hello:latest
+  507  docker push hello:latest
+  508  docker images
+  509  docker login meintjes
+  510  docker login
+  511  clear
+  512  docker login
+  513  docker push hello:latest
+  514  docker push meintjes/hello:latest
+  515  clear
+  516  docker images
+  517  docker push hello
+  518  docker images
+  519  docker run -it --name beneficial_guitar hello:latest
+  520  docker run -it --name next_eye hello:latest
+  521  docker run -it --name obedient_log hello:latest
+  522  docker run -it --name exultant_carry hello:latest
+  523  docker run -it --name astonishing_pain hello:latest
+  524  docker run -it --name ten_text hello:latest
+  525  docker run -it --name defeated_common hello:latest
+  526  docker run -it --name ten_reason hello:latest
+  527  docker run -it --name imperfect_glass hello:latest
+  528  clear
+  529  docker exec -it imperfect_glass bash
+  530  docker attach imperfect_glass
+  531  docker ps
+  532  docker ps all
+  533  docker ps -s
+  534  docker ps -a
+  535  docker kill 151
+  536  docker rm 151
+  537  docker run -it --name tranquil_listen hello:latest
+  538  docker run -it --name mindless_try hello:latest
+  539  docker run -it --name lame_schedule hello:latest
+  540  docker run -it --name outgoing_pie hello:latest
+  541  docker run -it --name marked_mood hello:latest
+  542  docker run -it --name jagged_hell hello:latest
+  543  docker run -it --name hospitable_spray hello:latest
+  544  docker attach jagged_hell
+  545  docker run -it --name colorful_physics hello:latest
+  546  docker run -it --name rare_depth hello:latest
+  547  docker run -it --name ceaseless_store hello:latest
+  548  docker run -it hello:latest
+  549  docker run -it --name greedy_collection hello:latest
+  550  docker attach jolly_pare
+  551  docker run -it --name ratty_obligation hello:latest
+  552  docker run -it --name chief_shirt hello:latest
+  553  docker run -it --name unwritten_status hello:latest
+  554  docker run -it -v ~dockerfiles:/test hello:latest
+  555  docker run -it -v ~/dockerfiles/hello:/test hello:latest
+  556  docker push hello:latest
+  557  docker run -it --name dangerous_product hello:latest
+  558  docker run -it hello:latest /bin/bash
+  559  ls
+  560  pwd
+  561  cd hellow
+  562  cd hello
+  563  clear
+  564  ls
+  565  docker exec -it jolly_pare bash
+  566  docker run -it --name azure-cli azuresdk/azure-cli-python
+  567  docker push 
+  568  docker push hello:latest meintjes/helloubuntu
+  569  docker push --help
+  570  docker push hello:latest
+  571  docker
+  572  docker logs musing shirley
+  573  docker logs musing_shirley
+  574  docker version
+  575  docker
+  576  docker image
+  577  docker images
+  578  doker
+  579  docker
+  580  docker pus
+  581  docker push
+  582  docker push --help
+  583  docker top musing_shirley
+  584  clear
+  585  ls
+  586  docker push hello:latest
+  587  docker run -it --name tearful_radio hello:latest
+  588  pwd
+  589  ls
+  590  cd dockerfiles
+  591  ls
+  592  cd hello
+  593  clear
+  594  ls
+  595  docker login
+  596  docker tag meintjes/hello:latest
+  597  docker tag hello:latest meintjes/hello:latest
+  598  docker push meintjes/hello:latest
+  599  docker push meintjes/writehellotofile:latest
+  600  docker tag hello:latest meintjes/writehellotofile:latest
+  601  docker push meintjes/writehellotofile:latest
+  602  docker pull meintjes/writehellotofile
+  603  docker images
+  604  docker run -it meintjes/hello
+  605  docker ps
+  606  docker ps -a
+  607  docker inspect meintjes/hello
+  608  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  609  docker ps -a --filter "name=sharp_meitner"
+  610  docker rm sharp_meitner
+  611  docker rm sharp_albattani
+  612  docker rm dazzling_murdock
+  613  docker rm jolly_morse
+  614  docker rm agitated_thompson
+  615  docker rm azure-cli
+  616  docker rm musing_shirley
+  617  docker rm elated_roentgen
+  618  docker rm unwritten_status
+  619  docker images
+  620  git status
+  621  pwd
+  622  docker push hello:latest
+  623  docker push meintjes/hello:latest
+  624  history
+  625  docker push hello:latest meintjes/hello:latest
+  626  history
+  627  docker images
+  628  docker tag hello:latest meintjes/hello:latest
+  629  docker images
+  630  docker push meintjes/hello
+  631  docker run -it meintjes/hello:latest
+  632  docker run -it meintjes/hello:latest writehellotofile.py
+  633  docker run -it meintjes/hello:latest writehellotofile.py -n "My Naam is Meintjes" -v "My Van is Bekker"
+  634  ls
+  635  cd hello
+  636  clear
+  637  ls
+  638  ls -ls
+  639  docker run -it -v ~/dockerfiles/hello:/test meintjes/hello:latest writehellotofile.py -n "My Naam is Meintjes" -v "My Van is Bekker"
+  640  git status
+  641  docker push hello:latest
+  642  docker login
+  643  docker push hello:latest
+  644  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  645  docker push
+  646  docker push meintjes/hello
+  647  docker images
+  648  docker 
+  649  docker images
+  650  docker rmi 294
+  651  docker rmi 514
+  652  docker rmi dd9a
+  653  docker rmi -f dd9a
+  654  docker images
+  655  docker push hello:latest
+  656  python writehellotofile.py2
+  657  python writehellotofile.py -n My naam is -v My van is
+  658  python writehellotofile.py -n "My naam is" -v "My van is"
+  659  apt-get upgrade
+  660  su apt-get upgrade
+  661  sudo apt-get upgrade
+  662  apt-get install gitkraken
+  663  sudo apt-get install gitkraken
+  664  sudo snap install gitkraken
+  665  snap help refresh
+  666  ld
+  667  ls
+  668  cd dockerfiles/
+  669  ls
+  670  git status
+  671  git init
+  672  git commit -m "first commit"
+  673  git remote add origin https://github.com/meintjesbekker/dockerfiles.git
+  674  git push -u origin master
+  675  git status
+  676  git add
+  677  git add .
+  678  git status
+  679  git add hello
+  680  git status
+  681  git commit
+  682  git commit -m "first commit"
+  683  git status
+  684  ls
+  685  git commit -a
+  686  git add hello
+  687  git push
+  688  git remote add origin https://github.com/meintjesbekker/dockerfiles.git
+  689  git remote add origin https://github.com/meintjesbekker/dockerfilesubuntu.git
+  690  clear
+  691  ls
+  692  cd hello
+  693  ls
+  694  apt-get install python3
+  695  sudo apt-get install python3
+  696  docker status
+  697  docker --help
+  698  ls
+  699  docker buidl hello.dockerfile
+  700  docker build hello.dockerfile
+  701  cd..
+  702  cd ..
+  703  docker build hello
+  704  ls
+  705  cd docker
+  706  ls
+  707  clear
+  708  ls
+  709  cd ..
+  710  clear
+  711  ls
+  712  vi hello2.dockerfile 
+  713  cd hello
+  714  clear
+  715  ls
+  716  docker build hello.dockerfile
+  717  history
+  718  cd ..
+  719  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  720  apt-get install python3
+  721  docker build --rm -f hello/hello.dockerfile -t hello:latest hello
+  722  history
+  723  ls -ls
+  724  docker run -it -v ~/dockerfiles/hello:/test meintjes/hello:latest writehellotofile.py -n "My Naam is Meintjes" -v "My Van is Bekker"
+  725  docker run -it -v ~/dockerfiles/hello:/test meintjes/hello:latest
+  726  docker push
+  727  docker push meintjes/hello:latest
+  728  docker run -it -v ~/dockerfiles/hello:/test meintjes/hello:latest
+  729  python3 --version
+  730  history
+  731  docker images
+  732  docker push meintjes/hello
+  733  docker run -it -v ~/dockerfiles/hello:/test meintjes/hello:latest
+  734  exit
+  735  docker run -it -v ~/dockerfiles/hello:/test meintjes/hello:latest writehellotofile.py -n "My Naam is Meintjes" -v "My Van is Bekker"
+  736  ls
+  737  cd /test
+  738  cd ~/test
+  739  cd dockerfiles/
+  740  clear
+  741  ls
+  742  cd hello
+  743  clear
+  744  ls
+  745  vi hello.dockerfile
+  746  docker run -it -v ~/dockerfiles/hello:/test meintjes/hello:latest
+  747  docker run -it -v ~/dockerfiles/hello:/test meintjes/hello:latest writehellotofile.py -n "My Naam is Meintjes" -v "My Van is Bekker"
+  748  cd..
+  749  cd ..
+  750  ls
+  751  vi hello2.dockerfile 
+  752  vi myVSdockerfile.dockerfile 
+  753  cd hello
+  754  cleaer
+  755  cls
+  756  clear
+  757  ls
+  758  vi writehellotofile.py 
+  759  vi hello.txt
+  760  docker run -it -v ~/dockerfiles/hello:/test meintjes/hello:latest writehellotofile.py -n "My Naam is Meintjes" -v "My Van is Bekker"
+  761  clear
+  762  ls
+  763  rm hello.txt
+  764  clear
+  765  ls
+  766  docker run -it -v ~/dockerfiles/hello:/test meintjes/hello:latest writehellotofile.py -n "My Naam is Meintjes" -v "My Van is Bekker"
+  767  clear
+  768  ls
+  769  rm hell
+  770  rm hello.txt
+  771  ls
+  772  docker run -it -v ~/dockerfiles/hello:/test meintjes/hello:latest writehellotofile.py -n "My Naam is Meintjes" -v "My Van is Bekker"
+  773  ls
+  774  vi hello.txt
+  775  rm hello.txt
+  776  docker run -it -v ~/dockerfiles/hello:/test meintjes/hello:latest writehellotofile.py -n "My Naam is Meintjes" -v "My Van is Bekker"
+  777  ls -l
+  778  vi hello.txt
+  779  docker run -it -v ~/dockerfiles/hello:/test meintjes/hello:latest writehellotofile.py -n "My Naam is Meintjes" -v "My Van is Bekker"
+  780  ls
+  781  vi hello.txt
+  782  vi hello.dockerfile
+  783  ls
+  784  cd dockerfiles
+  785  ls
+  786  cd hello
+  787  history
+  788  vi hello.dockerfile
+  789  apt-get upgrade && apt-get install python3.5
+  790  sudo apt-get upgrade && apt-get install python3.5
+  791  python -version
+  792  python
+  793  python3
+  794  sudo apt-get upgrade && apt-get install python3.6
+  795  sudo apt-get upgrade && apt-get install python3
+  796  sudo apt autoremove
+  797  sudo apt-get upgrade && apt-get install python3
+  798  sudo apt-get install python3
+  799  clear
+  800  ls
+  801  docker --help
+  802  history
+  803  history | grep build
+  804  cd ..
+  805  history grep | docker
+  806  history | grep docker
+  807  docker push
+  808  docker images
+  809  docker push hello
+  810  docker push --help
+  811  history | grep docker
+  812  docker login
+  813  docker info
+  814  docker images
+  815  docker push hello
+  816  docker push hello:latest
+  817  docker push meintjes/hello:latest
+  818  docker push meintjes/hello
+  819  docker images
+  820  history | grep docker push
+  821  history | grep push
+  822  docker push meintjes/hello:latest
+  823  docker images
+  824  docker push hello:latest
+  825  docker push meintjes/hello
+  826  docker image
+  827  docker images
+  828  docker tag hello meintjes/hello
+  829  docker images
+  830  docker push meintjes/hello:latest
+  831  docker images
+  832  docker pull meintjes/hello:latest
+  833  history | grep docker
+  834  docker run -it -v ~/dockerfiles/hello:/test meintjes/hello:latest writehellotofile.py -n "My Naam is Meintjes" -v "My Van is Bekker"
+  835  ld
+  836  ls
+  837  pwd
+  838  cd hello
+  839  ls
+  840  docker run -it -v ~/dockerfiles/hello:/test meintjes/hello:latest writehellotofile.py -n "My Naam is Meintjes" -v "My Van is Bekker"
+  841  cls
+  842  clear
+  843  docker run -it -v ~/dockerfiles/hello:/test meintjes/hello:latest writehellotofile.py -n "My Naam is Meintjes" -v "My Van is Bekker"
+  844  docker run -it -v ~/dockerfiles/hello:/test meintjes/hello:latest
+  845  docker run -v ~/dockerfiles/hello:/test meintjes/hello:latest
+  846  docker images
+  847  docker containers
+  848  docker container
+  849  docker container ls
+  850  docker run ubuntu
+  851  docker container ls
+  852  docker images
+  853  docker ps
+  854  docker ps --help
+  855  docker run -it ubuntu /bin/bash
+  856  docker ps
+  857  docker --version
+  858  docker info
+  859  docker version
+  860  docker run hello-world
+  861  docker ps
+  862  docker run -it ubuntu bash
+  863  docker images
+  864  dokcer image ls
+  865  docker image ls
+  866  docker container
+  867  docker container all
+  868  docker container ls
+  869  docker container ls --all
+  870  docker ps -q
+  871  docker ps -a -q
+  872  docker rm $(docker ps -a -q)
+  873  docker container ls --all
+  874  docker run -it -v ~/dockerfiles/hello:/test meintjes/hello:latest writehellotofile.py -n "My Naam is Meintjes" -v "My Van is Bekker"
+  875  docker container ls --all
+  876  docker run -it -v ~/dockerfiles/hello:/test meintjes/hello:latest writehellotofile.py -n "My Naam is Meintjes" -v "My Van is Bekker"ld
+  877  clear
+  878  ls
+  879  cd ..
+  880  lss
+  881  ls
+  882  celar
+  883  clear
+  884  ls
+  885  cd docker
+  886  ls
+  887  cd ..
+  888  dir
+  889  clear
+  890  ls
+  891  git status
+  892  ls
+  893  git status
+  894  git init
+  895  git status
+  896  git add hello
+  897  git status
+  898  git commit -a
+  899  git add README.md
+  900  echo "These are my dockerfiles" > README.md
+  901  git status
+  902  git add
+  903  git add README.md
+  904  git status
+  905  git commit -m "Add readme"
+  906  git status
+  907  git push
+  908  git push --set-upstream origin master
+  909  git status
+  910  git add hello
+  911  git status
+  912  git ls
+  913  ls
+  914  git add hello
+  915  git add hello2.dockerfile 
+  916  git add myVSdockerfile.dockerfile 
+  917  git add README.md 
+  918  git status
+  919  git push
+  920  ls
+  921  git init
+  922  git add hello
+  923  git commit -m added hello folder
+  924  git commit -m "added hello folder"
+  925  git commit -a
+  926  cd hello
+  927  git status
+  928  git add -a
+  929  git statu
+  930  git status
+  931  git add hello.dockerfile hello.txt writehellotofile.py 
+  932  git status
+  933  git commit "adding all the dockerfiles
+  934  git commit "adding all the dockerfiles"
+  935  git commit -m -a "adding all the dockerfiles"
+  936  git commit -a -m"adding all the dockerfiles"
+  937  clear
+  938  ls
+  939  git status
+  940  git add .idea/encodings.xml 
+  941  git -a commit "all my files"
+  942  git commit -a -m "all my files"
+  943  git push
+  944  git login
+  945  git
+  946  git log
+  947  git status
+  948  cd ..
+  949  ls
+  950  git status
+  951  git push
+  952  git status
+  953  cd hello
+  954  git push
+  955  git push https://meintjesbekker@github.com
+  956  git push --set-upstream https://meintjesbekker@github.com master
+  957  git status
+  958  git push
+  959  cd ..
+  960  ls
+  961  git status
+  962  git rm README.md hello2.dockerfile myVSdockerfile.dockerfile
+  963  docker status
+  964  git status
+  965  git commit -a "delete files"
+  966  git commit -a -m "delete files"
+  967  cls
+  968  clleaer
+  969  clear
+  970  ls
+  971  git status
+  972  git push
+  973  git status
+  974  ls
+  975  cd dockerfiles
+  976  cls
+  977  clear
+  978  ls
+  979  cd docker
+  980  clear
+  981  ls
+  982  history
+  983  history > history.txt
